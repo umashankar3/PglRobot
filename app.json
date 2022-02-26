@@ -1,5 +1,5 @@
 {
-      "name": "PglRobot",
+      "name": "Umashankar Robot",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "PglRobot"
       ],   
-   "repository": "https://github.com/iisgaurav/PglRobot",
+   "repository": "https://github.com/umashankar3/PglRobot",
    "addons": [
       {
          "options": {
@@ -26,12 +26,12 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "11858347"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "b8693e1f36c13ef9c1c23fb5c9ace507"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -41,26 +41,26 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1100735944"
+         "value": "1990481680"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "iisgaurav"
+         "value": "Tena_uy"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: PglRobot. If this ever points to PglRobot support than consider you made an enemy.",
          "required": true,
-         "value": "AuraXSupport"
+         "value": "bot_sport_uy"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001357253793"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001357253793"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -73,9 +73,9 @@
          "value": "-xyz"
       },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother PglRobot support then keep the current ID's here at they are and add yours.",
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother umashankar3 support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1100735944 1520742003 1619057027 1719433002"
+         "value": "1788262293 1990481680"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -89,12 +89,12 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users. After existing Id add yours. ",
          "required": false,
-         "value": "1100735944 1520742003 1619057027 1719433002"
+         "value": "1788262293 1990481680"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1100735944 1520742003 1619057027 1719433002"
+         "value": "1788262293 1990481680"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
@@ -123,7 +123,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://<appname>.herokuapp.com/"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
